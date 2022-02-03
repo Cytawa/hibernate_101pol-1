@@ -10,8 +10,5 @@
         <module name="hibernate-pol101" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hibernate-pol101" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
