@@ -32,27 +32,43 @@ public class GenericDaoImpl<T> implements GenericDao<T> {
 
     @Override
     public void deleteObject(T t) {
-
+        Session session = openSession();
+        session.beginTransaction();
+        session.delete(t);
+        session.getTransaction().commit();
+        session.close();
     }
 
     @Override
     public void deleteObject(int id) {
-
-    }
-
-    @Override
-    public void updateObject(T t, int id) {
-
+        T t = findById(id);
+        if (t != null) {
+            Session session = openSession();
+            session.beginTransaction();
+            session.delete(findById(id));
+            session.getTransaction().commit();
+            session.close();
+        }
     }
 
     @Override
     public List<T> getAll() {
-        return null;
+        try (Session session = openSession()) {
+            return session.createQuery("from "+entityClass.getName(),
+                    entityClass)
+                    .getResultList();
+        }
     }
 
     @Override
     public List<T> getAll(int maxResults, int firstResult) {
-        return null;
+        try (Session session = openSession()) {
+            return session.createQuery("from "+entityClass.getName(),
+                    entityClass)
+                    .setMaxResults(maxResults)
+                    .setFirstResult(firstResult)
+                    .getResultList();
+        }
     }
 
     private Session openSession() {
