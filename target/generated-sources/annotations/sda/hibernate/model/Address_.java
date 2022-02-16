@@ -1,6 +1,7 @@
 package sda.hibernate.model;
 
 import javax.annotation.processing.Generated;
+import javax.persistence.metamodel.SetAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
@@ -10,6 +11,7 @@ public abstract class Address_ {
 
 	public static volatile SingularAttribute<Address, String> apartmentNo;
 	public static volatile SingularAttribute<Address, Country> country;
+	public static volatile SetAttribute<Address, User> addresses;
 	public static volatile SingularAttribute<Address, String> buildingNo;
 	public static volatile SingularAttribute<Address, String> city;
 	public static volatile SingularAttribute<Address, String> street;
@@ -18,6 +20,7 @@ public abstract class Address_ {
 
 	public static final String APARTMENT_NO = "apartmentNo";
 	public static final String COUNTRY = "country";
+	public static final String ADDRESSES = "addresses";
 	public static final String BUILDING_NO = "buildingNo";
 	public static final String CITY = "city";
 	public static final String STREET = "street";

@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0085737e-4508-47e1-90dc-ce50f9df6ae1" name="Changes" comment="Merge remote-tracking branch 'origin/Tomek' into Tomek">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/sda/hibernate/model/Category_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/sda/hibernate/model/Order_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/sda/hibernate/model/Product_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/sda/hibernate/model/User_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-pol101.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/hibernate/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sda/hibernate/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/hibernate/model/Address_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sda/hibernate/model/Address_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sda/hibernate/przyklad1/Przyklad1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sda/hibernate/przyklad1/Przyklad1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/sda/hibernate/model/Address_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/sda/hibernate/model/Address_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="24bz3tIdSi2SeYMUYJr1K9t6w89" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,11 +57,12 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Przyklad6">
     <configuration name="Przyklad5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sda.hibernate.przyklad5.Przyklad5" />
       <module name="hibernate-pol101" />
@@ -64,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Przyklad6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sda.hibernate.przyklad6.Przyklad6" />
+      <module name="hibernate-pol101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sda.hibernate.przyklad6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Przyklad6" />
         <item itemvalue="Application.Przyklad5" />
       </list>
     </recent_temporary>
@@ -93,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643914287435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/Tomek' into Tomek">
+      <created>1644866335862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644866335862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +142,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge remote-tracking branch 'upstream/master' into Tomek" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Tomek' into Tomek" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Tomek' into Tomek" />
